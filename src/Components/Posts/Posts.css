@@ -1,0 +1,105 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.app{
+    background: #f2f2f2;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    height: 100vh;
+    width: 100px;
+    position: fixed;
+    background-image: linear-gradient(0deg,#ff7abe,#ff9770);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 0 20px 0 rgba(0,0,0,.1), 5px 0 5px rgba(0,0,0,.2);
+
+}
+
+.icon{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin: -50px 0;
+    box-shadow: 0 0 20px #333;
+}
+
+nav > a > img {
+    width: 40px;
+}
+
+main{
+    height: 95vh;
+    width: 50%;
+    background: white;
+    position: relative;
+    left: 350px;
+    top: 15px;
+    padding: 10px;
+    font-size: 120%;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.2);
+} 
+main > div > h1{
+    color: #ff9770
+}
+.title{
+    margin: 10px;
+    font-size: 90%;
+    
+}
+
+.title > input{
+    width: 90%;
+    height: 20px;
+}
+
+.img{
+    height: 45%;
+    width: 40%;
+    background: white;
+    margin: 0 auto;
+    /* border-style: solid;
+    border-width: 1px;
+    border-color: grey; */
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.2);
+}
+
+.imageInput{
+    font-size: 85%;
+}
+
+.imageInput > input{
+    width: 90%;
+    height: 20px;
+}
+.content{
+    margin: 10px 0;
+    font-size: 85%;
+}
+.content > input{
+    width: 90%;
+    height: 110px;
+}
+
+.postButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.postButton > button{
+    height: 40px;
+    width: 75px;
+    margin: 0 20px;
+    border-radius: 5%;
+    background-image:radial-gradient(circle at 50% -46%,#737373,#403d39);
+    color: white;  
+}
+
